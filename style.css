@@ -5,7 +5,6 @@
 }
 
 h1,
-h2,
 h3 {
   text-align: center;
   margin: 0;
@@ -15,21 +14,9 @@ h1 {
   font-size: 96px;
 }
 
-h2 {
-  font-size: 48px;
-}
-
 h3 {
   font-size: 24px;
   opacity: 0.7;
-}
-
-p {
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
 }
 
 .navigation-links {
@@ -68,6 +55,9 @@ p {
   margin: 30px 0;
   text-align: center;
   background-color: white;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .about-paragraphs p {
@@ -86,11 +76,6 @@ p {
   text-decoration: underline;
 }
 
-.left {
-  text-align: left;
-  padding: 0px;
-}
-
 .sizing {
   font-size: 53px;
 }
@@ -105,6 +90,23 @@ p {
   color: white;
 }
 
+.contact-info {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 30px;
+}
+
 .toppy {
   font-size: 96px;
+}
+
+@media (max-width: 900px) {
+  #homepage {
+    text-align: center;
+  }
+
+  .toppy {
+    font-size: 45px;
+    margin-top: 30px;
+  }
 }
